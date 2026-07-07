@@ -1,0 +1,40 @@
+{
+  "identifier" : "PoollaneConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "swimdues_group",
+      "localizations" : [],
+      "name" : "Poollane Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "$1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "swimdues_pro_monthly_internal",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Annual membership cost breakdown and guest-fee summary",
+              "displayName" : "Poollane Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "swimdues_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Poollane Pro Monthly",
+          "subscriptionGroupID" : "swimdues_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
